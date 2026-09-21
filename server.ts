@@ -23,7 +23,7 @@ import { ComplaintController } from './backend/controllers/complaintController.t
 import passport from 'passport';
 import './backend/config/passport.ts';
 
-const PORT = 3000;
+const PORT = Number(process.env.PORT) || 3000;
 
 async function startServer() {
   const app = express();
