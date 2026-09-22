@@ -5,7 +5,7 @@
 -- ==========================================================
 
 CREATE DATABASE IF NOT EXISTS `civicflow`;
-USE `civicflow`;
+USE `defaultdb`;
 
 -- 1. USERS TABLE
 CREATE TABLE IF NOT EXISTS `users` (
